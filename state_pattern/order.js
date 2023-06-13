@@ -1,6 +1,6 @@
 class Order {
     constructor () {
-        this.state = new OrderPendingState(this);4
+        this.state = new OrderPendingState(this);
     }
     setState (state) {
         this.state = state;
