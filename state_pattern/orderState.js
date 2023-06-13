@@ -14,4 +14,9 @@ class OrderPendingState extends OrderState{
     }
 }
 
+class OrderShippedState extends OrderState {
+    process () {
+        console.log("Order has been shipped. Cannot process the order again.");
+    }
 
+}
