@@ -20,3 +20,9 @@ class OrderShippedState extends OrderState {
     }
 
 }
+
+module.exports = {
+    OrderState,
+    OrderPendingState,
+    OrderShippedState
+}
